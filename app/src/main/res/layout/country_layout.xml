@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/flag"
+                    >
+
+                </ImageView>
+
+                <TextView
+                    android:id="@+id/Countrytxt"
+                    android:layout_width="130dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="start"
+                    android:layout_marginStart="10dp"
+                    android:textColor="#000"
+                    android:text="Country : ">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/Country"
+                    android:layout_width="120dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="end"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="10dp">
+
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/sick"
+                    >
+
+                </ImageView>
+
+                <TextView
+                    android:id="@+id/NewConfirmedtxt"
+                    android:layout_width="130dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="start"
+                    android:layout_marginStart="10dp"
+                    android:textColor="#000"
+                    android:text="NewConfirmed : ">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/NewConfirmed"
+                    android:layout_width="120dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="end"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="10dp">
+
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/sick"
+                    >
+
+                </ImageView>
+
+                <TextView
+                    android:id="@+id/TotalConfirmedtxt"
+                    android:layout_width="130dp"
+                    android:layout_height="20dp"
+                    android:textColor="#000"
+                    android:layout_gravity="start"
+                    android:layout_marginStart="10dp"
+                    android:text="TotalConfirmed : ">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/TotalConfirmed"
+                    android:layout_width="120dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="end"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="10dp">
+
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/death"
+                    >
+
+                </ImageView>
+
+                <TextView
+                    android:id="@+id/NewDeathstxt"
+                    android:layout_width="130dp"
+                    android:layout_height="20dp"
+                    android:textColor="#000"
+                    android:layout_gravity="start"
+                    android:layout_marginStart="10dp"
+                    android:text="NewDeaths : ">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/NewDeaths"
+                    android:layout_width="120dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="end"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="10dp">
+
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/death"
+                    >
+
+                </ImageView>
+
+                <TextView
+                    android:id="@+id/TotalDeathstxt"
+                    android:layout_width="130dp"
+                    android:layout_height="20dp"
+                    android:textColor="#000"
+                    android:layout_gravity="start"
+                    android:layout_marginStart="10dp"
+                    android:text="TotalDeaths : ">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/TotalDeaths"
+                    android:layout_width="120dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="end"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="10dp">
+
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/recovered"
+                    >
+
+                </ImageView>
+
+                <TextView
+                    android:id="@+id/NewRecoveredtxt"
+                    android:layout_width="130dp"
+                    android:layout_height="20dp"
+                    android:textColor="#000"
+                    android:layout_gravity="start"
+                    android:layout_marginStart="10dp"
+                    android:text="NewRecovered : ">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/NewRecovered"
+                    android:layout_width="120dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="end"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="10dp">
+
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/recovered"
+                    >
+
+                </ImageView>
+
+                <TextView
+                    android:id="@+id/TotalRecoveredtxt"
+                    android:layout_width="130dp"
+                    android:layout_height="20dp"
+                    android:textColor="#000"
+                    android:layout_gravity="start"
+                    android:layout_marginStart="10dp"
+                    android:text="TotalRecovered : ">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/TotalRecovered"
+                    android:layout_width="120dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="end"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="10dp">
+
+                </TextView>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/date"
+                    >
+
+                </ImageView>
+                <TextView
+                    android:id="@+id/Datetxt"
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:textColor="#000"
+                    android:layout_gravity="start"
+                    android:layout_marginStart="10dp"
+                    android:text="Date : ">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/Date"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="10dp">
+
+                </TextView>
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
